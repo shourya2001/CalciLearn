@@ -13,14 +13,19 @@ def multiply(x, y):
 def divide(x, y):
     return x / y
 
+def mod(x,y):
+    return x%y
+
 
 print("Select operation.")
 print("1.Add")
 print("2.Subtract")
 print("3.Multiply")
 print("4.Divide")
-print("Hello World")
+print("5.modulus")
+
+
 
 while True:
     # Take input from the user
-    choice = input("Enter choice(1/2/3/4): ")
+    choice = input("Enter choice(1/2/3/4/5): ")
